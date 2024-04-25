@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #8064AB;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px; 
+    color: #ffffff; 
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px; 
+    color: #ffffff; 
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8064AB;
+    border-radius: 15px;
+    font-size: 16px; 
+    color: #8064AB; 
+}
+input::placeholder {
+    color: #8064AB; 
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #8064AB;
+    font-size: 16px; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F7941D;
+}
+.checkbox-container {
+    margin: 20px;
+}
+.checkbox-container label {
+    position: relative;
+    padding-left: 2px;
+    cursor: pointer;
+    font-size: 16px; 
+    color: #ffffff; 
+}
+.label{
+    padding: 20px;
+    margin-top: 20px;
+}
+.label label {
+    font-size: 16px; 
+    color: #ffffff; 
+}
+
+.label label a {
+    color: #F7941D; 
+    text-decoration: none; 
+}
+
+.label label a:hover {
+    text-decoration: underline; 
+}
+
+.navbar {
+    background-color: #8064AB; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto; 
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+.menu li a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #F7941D; 
+}
+
+.menu li:last-child {
+    margin-right: 20px; 
+}
+
+.menu li .logout-btn {
+    background-color: #ff7f0e; 
+    color: #fff; 
+    border:none;
+    padding: 8px 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.menu li .logout-btn:hover {
+    background-color: #e65a00; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.center {
+    text-align: center;
+}
+.task-inputs {
+    margin-top: 20px;
+}
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+textarea, input[type="date"] {
+    width: calc(50% - 5px);
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e65a00;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
