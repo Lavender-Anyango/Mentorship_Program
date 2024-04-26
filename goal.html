@@ -12,10 +12,12 @@
             <img src="images/white.png" alt="Logo">
         </div>
         <ul class="menu">
-            <li><a href="#">To-Do</a></li>
-            <li><a href="#">Mentor's Profile</a></li>
-            <li><a href="#">Achievements</a></li>
-            <li><a href="#">Goal Setting</a></li>
+            <li><a href="index.html">Home</a></li>
+            
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="profile.html">Mentor's Profile</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="goal.html">Goal Setting</a></li>
             <li>
                 <a href="##">
                     <button class="logout-btn">Log Out</button>
@@ -24,18 +26,31 @@
         </ul>
     </nav>
     <div class="container">
-        <h1 class="center">Task Manager</h1>
+        <h1 class="center">Goals Setting</h1>
         <div class="task-inputs">
-            <div class="input-group">
-                <textarea placeholder="Short term"></textarea>
-                <textarea placeholder="Long term"></textarea>
-            </div>
-            <div class="input-group">
-                <input type="date" placeholder="Start Date">
-                <input type="date" placeholder="End Date">
-            </div>
-
-            <button>Add</button>
+            <form class="goal-form">
+                <div class="input-group">
+                    <div class="textarea-input">
+                        <label for="short_term">Short Term:</label>
+                        <textarea id="short_term" name="short_term" placeholder="Enter Short Term Goal"></textarea>
+                    </div>
+                    <div class="textarea-input">
+                        <label for="long_term">Long Term:</label>
+                        <textarea id="long_term" name="long_term" placeholder="Enter Long Term Goal"></textarea>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="date-input">
+                        <label for="start_date">Start Date:</label>
+                        <input type="date" id="start_date" name="start_date">
+                    </div>
+                    <div class="date-input">
+                        <label for="end_date">End Date:</label>
+                        <input type="date" id="end_date" name="end_date">
+                    </div>
+                </div>
+                <button type="submit" class="add-btn">Add</button>
+            </form>
         </div>
     </div>
 </body>

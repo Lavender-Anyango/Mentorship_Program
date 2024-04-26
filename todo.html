@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Purple Navigation Bar</title>
+    <title>To-Do List</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .card {
+    max-width: 80%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -12,13 +23,53 @@
             <img src="images/white.png" alt="Logo">
         </div>
         <ul class="menu">
-            <li><a href="#">To-Do</a></li>
-            <li><a href="#">Mentor's Profile</a></li>
-            <li><a href="#">Achievements</a></li>
-            <li><a href="#">Goal Setting</a></li>
-            <li><a href="##"></a><button class="logout-btn">Log Out</button></li></a></li>
+            <li><a href="index.html">Home</a></li>
+            
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="profile.html">Mentor's Profile</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="goal.html">Goal Setting</a></li>
+            <li>
+                <a href="##">
+                    <button class="logout-btn">Log Out</button>
+                </a>
+            </li>
         </ul>
     </nav>
+    <div class="card">
+        <h1 class="center">To_Do</h1>
+    <div class="container">
+        <ul class="todo-list">
+            <li>
+                <input type="checkbox" id="todo1">
+                <input type="text" id="task2" placeholder="Review Born A Crime Chapter 1 & 2">
+               <a href="https://tinyurl.com/ddhmb8v2"> <button class="add-btn">View</button></a>
+            </li>
+            <li>
+                <input type="checkbox" id="todo2">
+                <input type="text" id="task2" placeholder="Do JS Assignment">
+               <a href="achievements.html"> <button class="add-btn">View</button></a>
+            </li>
+            <li>
+                <input type="checkbox" id="todo2">
+                <input type="text" id="task2" placeholder="Go for code Review">
+               <a href="achievements.html"> <button class="add-btn">View</button></a>
+            </li>
+            <div class="task1">
+            <li>
+                <input type="checkbox" id="todo2">
+                <input type="text" id="task2" placeholder="Schedule Mentor's meeting">
+               <a href="achievements.html"> <button class="add-btn">View</button></a>
+            </li>
+                
+            </div>           
+        </ul>
+        
+    </div>
+    <button class="add-btn"><a href="achievements.html">Add</a></button>
+    </div>
+
+   
     
 </body>
 </html>

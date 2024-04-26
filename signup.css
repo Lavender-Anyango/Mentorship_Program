@@ -1,0 +1,113 @@
+
+
+/* .input-group {
+    margin-bottom: 20px;
+} */
+
+/* .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px; 
+    color: #ffffff; 
+} */
+
+/* .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8064AB;
+    border-radius: 15px;
+    font-size: 16px; 
+    color: #8064AB; 
+} */
+/* input::placeholder {
+    color: #8064AB; 
+} */
+
+.login-card{
+    border:  solid black 2px;
+}
+button {
+    width: 50%;
+    padding: 10px 10px;
+    background-color: purple;
+    color:white;
+    font-size: 16px; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #F7941D;
+}
+.checkbox-container {
+    margin: 20px;
+}
+.checkbox-container label {
+    position: relative;
+    padding-left: 2px;
+    cursor: pointer;
+    font-size: 16px; 
+    color:purple; 
+}
+
+
+
+
+.label{
+    padding: 20px;
+    margin-top: 20px;
+}
+/* .label label {
+    font-size: 16px; 
+    color: #ffffff; 
+} */
+
+.label label a {
+    color: #F7941D; 
+    text-decoration: none; 
+}
+
+.label label a:hover {
+    text-decoration: underline; 
+}
+
+
+.logo img {
+    width: 100px; 
+    height: auto; 
+}
+
+
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.input-group label {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333333; 
+}
+
+.input-group input,
+.input-group textarea {
+    width: 50%;
+    padding: 15px  10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333; 
+}
+
+.input-group textarea {
+    resize: vertical; 
+}
+
+
+
+

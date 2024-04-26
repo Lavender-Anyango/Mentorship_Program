@@ -12,13 +12,34 @@
             <img src="images/white.png" alt="Logo">
         </div>
         <ul class="menu">
-            <li><a href="#">To-Do</a></li>
-            <li><a href="#">Mentor's Profile</a></li>
-            <li><a href="#">Achievements</a></li>
-            <li><a href="#">Goal Setting</a></li>
-            <li><a href="##"></a><button class="logout-btn">Log Out</button></li></a></li>
+            <li><a href="index.html">Home</a></li>
+            
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="profile.html">Mentor's Profile</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="goal.html">Goal Setting</a></li>
+            <li>
+                <a href="##">
+                    <button class="logout-btn">Log Out</button>
+                </a>
+            </li>
         </ul>
     </nav>
+    <div class="container">
+        <h1 class="center">Achievements</h1>
+        <form class="achievement-form">
+            <div class="input-group">
+                <input type="text" id="achievement1" name="achievement1" placeholder="Enter Achievement 1">
+            </div>
+            <div class="input-group">
+                <input type="text" id="achievement2" name="achievement2" placeholder="Enter Achievement 2">
+            </div>
+            <div class="input-group">
+                <textarea id="description" name="description" rows="4" placeholder="Enter Description"></textarea>
+            </div>
+            <button type="submit" class="add-btn">Add</button> 
+        </form>
+    </div>
     
 </body>
 </html>

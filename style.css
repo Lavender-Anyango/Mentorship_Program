@@ -68,6 +68,68 @@ button:hover {
     font-size: 16px; 
     color: #ffffff; 
 }
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative; 
+}
+
+.program-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.welcome-message {
+    text-align: center;
+    margin: 0;
+    color: #8064AB;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+}
+
+.join-now-button {
+    margin-left: auto; 
+    width: 30%; 
+}
+
+.login-button {
+    width: 30%; 
+}
+
+.login-button,
+.join-now-button {
+    padding: 10px;
+    border: none;
+    background-color: #e65a00;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover,
+.join-now-button:hover {
+    background-color: #ff7f0e;
+}
+
 .label{
     padding: 20px;
     margin-top: 20px;
@@ -91,7 +153,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 2px 1px;
     width: 100%;
 }
 
@@ -141,7 +203,7 @@ button:hover {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -170,4 +232,215 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 50%;
+    width: 500px;
+}
+
+.profile-details {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.profile-details h2 {
+    margin-top: 0;
+    color: #333333;
+   
+}
+
+.profile-details p {
+    margin: 10px 0;
+    color: #666666;
+    line-height: 70px;
+}
+.center {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.achievement-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.input-group label {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333333; 
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333; 
+}
+
+.input-group textarea {
+    resize: vertical; 
+}
+
+.add-btn {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #e65a00; 
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #ff7f0e; 
+}
+.task-inputs {
+    margin-top: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px;
+}
+
+.input-group .textarea-input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-group .textarea-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.input-group .textarea-input textarea {
+    width: 100%;
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; 
+}
+.input-group .date-input {
+    width: calc(50% - 5px); 
+    margin-right: 5px; 
+}
+
+.input-group .date-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.input-group .date-input input[type="date"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+.add-btn {
+    padding: 15px 30px; 
+    background-color: #e65a00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #ff7f0e;
+}
+.task1{
+    display: flex;
+}
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li {
+    margin-bottom: 10px;
+    display: flex; 
+    align-items: center; 
+}
+
+.todo-list li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-list li input[type="text"] {
+    flex: 1; 
+    padding: 30px 350px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    font-size: 16px;
+}
+.add-btn{
+    width: 80px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 80%;
+    text-decoration: none;
+}
+.add-btn a{
+    
+    text-decoration: none;
+    color: white;
+}
+.mentor_container {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+}
+.sub{
+    text-decoration: none;
+    color: white;
+}
+.mentor{
+    color: #8064AB;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 30px;
+
+}
+.copy-right{
+    color: #8064AB;
+    margin-top: 100px;
+    text-align: center;
 }
