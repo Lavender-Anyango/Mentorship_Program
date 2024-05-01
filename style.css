@@ -399,7 +399,7 @@ button {
 }
 
 .todo-list li input[type="checkbox"] {
-    margin-right: 10px;
+    margin-left: -250px;
 }
 
 .todo-list li input[type="text"] {
